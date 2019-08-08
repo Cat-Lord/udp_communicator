@@ -1,0 +1,6 @@
+#!/bin/bash
+
+g++ server.c
+mv a.out server
+g++ client.c
+mv a.out client

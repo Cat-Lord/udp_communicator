@@ -55,10 +55,11 @@ int get_message(char buff[], int buff_size){
 }
 
 void print_message(char buff[], int size){
+	putchar('\t');
+
     int i;
 	for(i = 0; i < size; i++)
 		putchar(buff[i]);
-	putchar('\n');
 }
 
 int main(){
